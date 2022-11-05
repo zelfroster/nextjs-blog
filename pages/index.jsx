@@ -24,10 +24,6 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p className="details">I am a Frontend Developer who loves Linux.</p>
-        {/* <p> */}
-        {/*   (This is a sample website - you’ll be building a site like this on{' '} */}
-        {/*   <a href="https://nextjs.org/learn">our Next.js tutorial</a>.) */}
-        {/* </p> */}
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingMd}>Blog</h2>
@@ -47,6 +43,7 @@ export default function Home({ allPostsData }) {
     <style jsx>{`
         .details {
           text-align: center;
+          margin: 0;
         }
         .container {
           min-height: 100vh;
